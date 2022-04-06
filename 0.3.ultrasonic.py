@@ -27,7 +27,7 @@ def measure():
  time.sleep(0.00001)
  GPIO.output(trig, False)
 
-# Mesure distance
+# Measure distance
  while GPIO.input(echo) == 0:
   pulse_start = time.time()
 
